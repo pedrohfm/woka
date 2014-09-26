@@ -215,20 +215,8 @@ ul#lang_set li a:hover{
 	padding: 10px 35px;
 	line-height: 150%;
 }
-.inhabiting {
-	background: url(../../img/inhabiting.png) top  no-repeat;
-	margin-bottom: -30%;
-}
-.fabrication{
-	background: url(../../img/digital-fabrication.png) top no-repeat;
-	margin-bottom: -30%;
-}
-.budget{
-	background: url(../../img/budget.png) top no-repeat;
-	margin-bottom: -30%;
-}
-.dynacomp{
-	background: url(../../img/dynacomp.png) top no-repeat;
+.about {
+	background: url(../../img/dynacomp.png) top  no-repeat;
 	margin-bottom: -30%;
 }
 /*--------------------------------------------------------Structure Elements------------------------------------------------*/
