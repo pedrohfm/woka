@@ -181,10 +181,9 @@ ul#lang_set li a:hover{
 	color: black;
 }
 
-
 /*--------------------------------------------------------Content Elements------------------------------------------------*/
 #content_box{
-	margin-top:35%;
+	margin-top:30%;
 	overflow-y: auto;
 }
 #content_title{
@@ -194,7 +193,7 @@ ul#lang_set li a:hover{
 	font-weight: bold;
 	text-align: left;
 	padding: 10px;
-	display: inline-block;
+	display: block;
 	text-decoration: underline;
 }
 #content_subtitle{
@@ -204,27 +203,37 @@ ul#lang_set li a:hover{
 	font-weight: lighter;
 	font-style: italic;
 	text-align: left;
-	margin: 0 0 0 10;
+	padding-left: 20px;
 	display: block;
 }
 #content_text {
+	overflow: auto;
 	text-align: center;
 	color: black;
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 13pt;
+	font-size: 12pt;
 	text-align: left;
 	padding: 10px 35px;
-	line-height: 150%;
+	line-height: 160%;
 }
-.about {
-	background: url(../../img/about.png) top  no-repeat;
+.inhabiting {
+	background: url(../../img/inhabiting.png) top  no-repeat;
 	margin-bottom: -30%;
 }
-.wokawip {
-	background: url(../../img/woka-wip.png) top  no-repeat;
+.fabrication{
+	background: url(../../img/digital-fabrication.png) top no-repeat;
+	margin-bottom: -30%;
+}
+.budget{
+	background: url(../../img/budget.png) top no-repeat;
+	margin-bottom: -30%;
+}
+.dynacomp{
+	background: url(../../img/dynacomp.png) top no-repeat;
 	margin-bottom: -30%;
 }
 /*--------------------------------------------------------Structure Elements------------------------------------------------*/
+
 #header_container {
 	background: white;
 	min-width: 100%;
@@ -235,14 +244,13 @@ ul#lang_set li a:hover{
 	background: none;
 	width: 100%;
 	height: 50%;
-	margin-bottom: 5%;
-	margin-top: -2.5%;
+	margin-bottom: 2.5%;
 }
 #content {
 	background-size: 75%;
 	min-width: 100%;
 	min-height: 900px;
-	margin-top: -10%;
+	margin-top: -40%;
 }
 #footer_container {
 	background: white;

@@ -193,7 +193,7 @@ ul#lang_set li a:hover{
 	font-weight: bold;
 	text-align: left;
 	padding: 10px;
-	display: inline-block;
+	display: block;
 	text-decoration: underline;
 }
 #content_subtitle{
@@ -203,17 +203,18 @@ ul#lang_set li a:hover{
 	font-weight: lighter;
 	font-style: italic;
 	text-align: left;
-	margin: 0 0 0 10;
+	padding-left: 20px;
 	display: block;
 }
 #content_text {
+	overflow: auto;
 	text-align: center;
 	color: black;
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 13pt;
+	font-size: 12pt;
 	text-align: left;
 	padding: 10px 35px;
-	line-height: 150%;
+	line-height: 160%;
 }
 .inhabiting {
 	background: url(../../img/inhabiting.png) top  no-repeat;
@@ -229,6 +230,10 @@ ul#lang_set li a:hover{
 }
 .dynacomp{
 	background: url(../../img/dynacomp.png) top no-repeat;
+	margin-bottom: -30%;
+}
+.uses{
+	background: url(../../img/logo.png) top no-repeat;
 	margin-bottom: -30%;
 }
 /*--------------------------------------------------------Structure Elements------------------------------------------------*/
