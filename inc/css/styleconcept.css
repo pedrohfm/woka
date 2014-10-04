@@ -214,7 +214,17 @@ ul#lang_set li a:hover{
 	font-size: 12pt;
 	text-align: left;
 	padding: 10px 35px;
-	line-height: 160%;
+	line-height: 140%;
+}
+#content_text_2 {
+	overflow: auto;
+	text-align: center;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	text-align: left;
+	padding: 0px 35px;
+	line-height: 140%;
 }
 .inhabiting {
 	background: url(../../img/inhabiting.png) top  no-repeat;
